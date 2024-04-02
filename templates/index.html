@@ -48,6 +48,10 @@
     </div>
 
     <script>
+        document.getElementById("chatButton").addEventListener("click", function() {
+        document.getElementById("message-input").value = ""; // Clear the value of the input field
+        });
+
         function sendMessage() {
             const message = document.getElementById('message-input').value;
             fetch('/send_message', {
