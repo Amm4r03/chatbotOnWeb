@@ -1,7 +1,14 @@
 from flask import Flask, render_template, request, jsonify
 from chat import get_response, bot_name
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
+
+# Set configuration options
+app.config['DEBUG'] = True
+app.config['SECRET_KEY'] = 'your_secret_key_here'
+
+# Print configuration options
+print(app.config)
 
 @app.route('/')
 def index():
