@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot | PollWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chat Bot</h1>
+    <div class="chatWindow">
+    <div id="chat-container"></div>
+    <input type="text" id="message-input">
+    <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const message = document.getElementById('message-input').value;
+            fetch('/send_message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'message': message
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('chat-container').innerHTML += `<p>User: ${message}</p>`;
+                document.getElementById('chat-container').innerHTML += `<p>${data.response}</p>`;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
