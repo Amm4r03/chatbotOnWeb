@@ -1,0 +1,411 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Jai Hind"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag":"help",
+      "patterns":["help", "help me out", "i need help", "please help"],
+      "responses":["Hi! I am the Delhi Police Bot! Ask me about election related details such as\n1 : dos and donts in elections\n2: ask me about legal provisions\n3: ask me about permissible and non permissible activities\n4:ask me about important contacts\n5: ask me about the provisions provided in the IPC\n"]
+    },
+    {
+      "tag": "contacts",
+      "patterns": ["important contacts of south district?",
+                  "Important contacts of election cell",
+                  "Contacts of election cell of south district"
+    ],
+      "responses": [
+        "1 Inspr Ghanshyam Kishore  Election Cell SD  9873772000 \n 2 Inspr Vijay Dhayia  Inspr Election Cell  9999173026 \n3 SI Anil Beniwal  Election Cell  8750870595 \n4 SI Ashok Kumar Election Cell  9289800634 \n5 SI Sunil Kumar  Election Cell  9582560488 \n6 SI Mohan Lal  Election Cell  9910399448 District Control Room-South District  011 26523967 011-26528994 \nCentral Police Control Room 112"
+      ]
+    },
+    {
+      "tag": "section_171-E",
+      "patterns": ["giving and accepting bribe", "What is provision for giving and accepting bribe?", "What is the punishment for giving and accepting bribe?","Is giving and accepting bribe cognizable?","Is giving and accepting bribe bailable?"],
+      "responses": ["Section 171-E of IPC\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: No"]
+    },
+    {
+      "tag": "section_171-F",
+      "patterns": ["undue influence at an election", "Using undue influence or Personation at an election", "What is provision for using undue influence or Personation at an election?", "What is the punishment for using undue influence or Personation at an election?", "Is using undue influence or Personation at an election cognizable?", "Is using undue influence or Personation at an election bailable?"
+      ],
+      "responses": ["Section 171-F of IPC\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: Yes"]
+    },
+    {
+      "tag": "section_171-G",
+      "patterns": ["false statement in election","False statement in connection with election", "What is provision for false statement in connection with election?", "What is the punishment for false statement in connection with election?", "Is false statement in connection with election cognizable?", "Is false statement in connection with election bailable?", "what is the legal provision if a person gives a false statement in election?"],
+      "responses": ["Section 171-G of IPC\nPunishment: Fine\nCognizable: No\nBailable: Yes"]
+    },
+    {
+      "tag": "section_171-HIPC",
+      "patterns": ["punishment for illegal payment in election","illegal payment in election","Illegal payment in connection with election", "What is provision for illegal payment in connection with election?", "What is the punishment for illegal payment in connection with election?", "Is illegal payment in connection with election cognizable?", "Is illegal payment in connection with election bailable?"],
+      "responses": ["Section 171-HIPC of IPC\nPunishment: Rs.500/-\nCognizable: No\nBailable: Yes"]
+    },    
+    {
+      "tag": "section_171-I",
+      "patterns": ["election accounts failure","failure in keeping election accounts","failure to keep election Accounts", "What is provision for failure to keep election Accounts?", "What is the punishment for failure to keep election Accounts?", "Is failure to keep election Accounts cognizable?", "Is failure to keep election Accounts bailable?"],
+      "responses": ["Section 171-I of IPC\nPunishment: -do-\nCognizable: No\nBailable: Yes"]
+    },    
+    {
+      "tag": "section_153-A(1)",
+      "patterns": ["social groups enmity", "enmity between social groups","promoting enmity between social groups","promoting enmity between different social groups leading to disharmony", "What is provision for promoting enmity between different social groups leading to disharmony?", "What is the punishment for promoting enmity between different social groups leading to disharmony?", "Is promoting enmity between different social groups leading to disharmony cognizable?", "Is promoting enmity between different social groups leading to disharmony bailable?"],
+      "responses": ["Section 153-A(1) of IPC \n- Punishment: 3 Years or fine or both \n- Cognizable: Yes \n- Bailable: No"]
+    },    
+    {
+      "tag": "section_153-A(2)",
+      "patterns": ["religious gathering enmity","religious place enmity","enmity between social groups religious place","Promoting enmity between social group leading to disharmony in religious place or religious gathering", "What is provision for promoting enmity between social group leading to disharmony in religious place or religious gathering?", "What is the punishment for promoting enmity between social group leading to disharmony in religious place or religious gathering?", "Is promoting enmity between social group leading to disharmony in religious place or religious gathering cognizable?", "Is promoting enmity between social group leading to disharmony in religious place or religious gathering bailable?"],
+      "responses": ["Section 153-A(2) of IPC \n- Punishment: 5 years and fine also \n- Cognizable: Yes \n- Bailable: No"]
+    },    
+    {
+      "tag": "section_153-B(1)",
+      "patterns": ["Imputation assertions prejudicial to national integration", "What is provision for imputation assertions prejudicial to national integration?", "What is the punishment for imputation assertions prejudicial to national integration?", "Is imputation assertions prejudicial to national integration cognizable?", "Is imputation assertions prejudicial to national integration bailable?"],
+      "responses": ["Section 153-B(1) of IPC \n- Punishment: 3 years & fine or both \n- Cognizable: Yes \n- Bailable: No"]
+    },    
+    {
+      "tag": "section_153-B(2)",
+      "patterns": ["Imputations assertion prejudicial to national integration committed at a religious place or gathering", "What is provision for imputations assertion prejudicial to national integration committed at a religious place or gathering?", "What is the punishment for imputations assertion prejudicial to national integration committed at a religious place or gathering?", "Is imputations assertion prejudicial to national integration committed at a religious place or gathering cognizable?", "Is imputations assertion prejudicial to national integration committed at a religious place or gathering bailable?"],
+      "responses": ["Section 153-B(2) of IPC \n- Punishment: 5 years & also fine \n- Cognizable: Yes \n- Bailable: No"]
+    },
+    {
+      "tag": "section_31_RPA",
+      "patterns": ["making false declaration","Making false declaration", "What is provision for making false declaration?", "What is the punishment for making false declaration?", "Is making false declaration cognizable?", "Is making false declaration bailable?"],
+      "responses": ["Section 31 RPA \n- Punishment: One year or fine or both \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_32_RPA",
+      "patterns": ["Breach of official duty", "What is provision for breach of official duty?", "What is the punishment for breach of official duty?", "Is breach of official duty cognizable?", "Is breach of official duty bailable?"],
+      "responses": ["Section 32-RPA \n- Punishment: 3 months to 2 years with fine \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_125_RPA",
+      "patterns": ["Promoting enmity between classes in c/w election", "What is provision for promoting enmity between classes in c/w election?", "What is the punishment for promoting enmity between classes in c/w election?", "Is promoting enmity between classes in c/w election cognizable?", "Is promoting enmity between classes in c/w election bailable?"],
+      "responses": ["Section 125-RPA \n- Punishment: 3 years or fine or both \n- Cognizable: Yes \n- Bailable: No"]
+    },          
+    {
+      "tag": "section_126_RPA",
+      "patterns": ["Holding of public meeting on the preceding day the polling day", "What is provision for holding of public meeting on the preceding day the polling day?", "What is the punishment for holding of public meeting on the preceding day the polling day?", "Is holding of public meeting on the preceding day the polling day cognizable?", "Is holding of public meeting on the preceding day the polling day bailable?"],
+      "responses": ["Section 126-RPA \n- Punishment: Rs.250/- \n- Cognizable: No \n- Bailable: Yes"]
+    },      
+    {
+      "tag": "section_127_RPA",
+      "patterns": ["Causing disturbance at election meeting", "What is provision for causing disturbance at election meeting?", "What is the punishment for causing disturbance at election meeting?", "Is causing disturbance at election meeting cognizable?", "Is causing disturbance at election meeting bailable?"],
+      "responses": ["Section 127-RPA \n- Punishment: 6 months or Rs.2000/- or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },    
+    {
+      "tag": "section_127_RPA_A",
+      "patterns": ["Failure to mention name and address of printer/publisher on pamphlets", "What is provision for failure to mention name and address of printer/publisher on pamphlets?", "What is the punishment for failure to mention name and address of printer/publisher on pamphlets?", "Is failure to mention name and address of printer/publisher on pamphlets cognizable?", "Is failure to mention name and address of printer/publisher on pamphlets bailable?"],
+      "responses": ["Section 127-RPA (A) \n- Punishment: 6 months or Rs.2000/- or both \n- Cognizable: No \n- Bailable: Yes"]
+    },    
+    {
+      "tag": "section_128_RPA",
+      "patterns": ["Violation of secrecy by staff in respect of voting and posters etc.", "What is provision for violation of secrecy by staff in respect of voting and posters etc.?", "What is the punishment for violation of secrecy by staff in respect of voting and posters etc.?", "Is violation of secrecy by staff in respect of voting and posters etc. cognizable?", "Is violation of secrecy by staff in respect of voting and posters etc. bailable?"],
+      "responses": ["Section 128-RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"]
+    },    
+    {
+      "tag": "section_129_RPA_3",
+      "patterns": ["use of influence by officer on duty at election for voting","Use of influence by officer on duty at an election for voting", "What is provision for use of influence by officer on duty at an election for voting?", "What is the punishment for use of influence by officer on duty at an election for voting?", "Is use of influence by officer on duty at an election for voting cognizable?", "Is use of influence by officer on duty at an election for voting bailable?"],
+      "responses": ["Section 129 (3) RPA \n- Punishment: 6 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_130_2_RPA",
+      "patterns": ["canvassing on polling day","Canvassing on polling day", "What is provision for canvassing on polling day?", "What is the punishment for canvassing on polling day?", "Is canvassing on polling day cognizable?", "Is canvassing on polling day bailable?"],
+      "responses": ["Section 130(2) RPA \n- Punishment: Rs.250/- \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_131_2_RPA",
+      "patterns": ["disorderly conduct in polling station","disorderly conduct near polling station","Disorderly conduct in or near polling station", "What is provision for disorderly conduct in or near polling station?", "What is the punishment for disorderly conduct in or near polling station?", "Is disorderly conduct in or near polling station cognizable?", "Is disorderly conduct in or near polling station bailable?"],
+      "responses": ["Section 131(2) RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_132_RPA",
+      "patterns": ["Misconduct at polling station", "What is provision for misconduct at polling station?", "What is the punishment for misconduct at polling station?", "Is misconduct at polling station cognizable?", "Is misconduct at polling station bailable?"],
+      "responses": ["Section 132-RPA \n- Punishment: 3 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_133_RPA",
+      "patterns": ["illegal transporation of voters","Illegal procuring/hiring of vehicles at an election for transportation of voters", "What is provision for illegal procuring/hiring of vehicles at an election for transportation of voters?", "What is the punishment for illegal procuring/hiring of vehicles at an election for transportation of voters?", "Is illegal procuring/hiring of vehicles at an election for transportation of voters cognizable?", "Is illegal procuring/hiring of vehicles at an election for transportation of voters bailable?"],
+      "responses": ["Section 133-RPA \n- Punishment: 3 months with fine \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_134_RPA",
+      "patterns": ["Breach of official duty in connection with election", "What is provision for breach of official duty in connection with election?", "What is the punishment for breach of official duty in connection with election?", "Is breach of official duty in connection with election cognizable?", "Is breach of official duty in connection with election bailable?"],
+      "responses": ["Section 134-RPA \n- Punishment: Rs.500/- \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_134_A_RPA",
+      "patterns": ["Acting as electing agent, polling agent or counting agent by Govt. Servant", "What is provision for acting as electing agent, polling agent or counting agent by Govt. Servant?", "What is the punishment for acting as electing agent, polling agent or counting agent by Govt. Servant?", "Is acting as electing agent, polling agent or counting agent by Govt. Servant cognizable?", "Is acting as electing agent, polling agent or counting agent by Govt. Servant bailable?"],
+      "responses": ["Section 134(A) RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_134_B_RPA",
+      "patterns": ["Prohibition of going armed to or near a polling station", "What is provision for prohibition of going armed to or near a polling station?", "What is the punishment for prohibition of going armed to or near a polling station?", "Is prohibition of going armed to or near a polling station cognizable?", "Is prohibition of going armed to or near a polling station bailable?"],
+      "responses": ["Section 134 (B) RPA \n- Punishment: 2 years or with fine or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },    
+    {
+      "tag": "section_135_1_RPA",
+      "patterns": ["removal of ballot paper","ballot paper removed","removal of ballot paper","Removal of Ballot-papers from polling stations", "What is provision for removal of Ballot-papers from polling stations?", "What is the punishment for removal of Ballot-papers from polling stations?", "Is removal of Ballot-papers from polling stations cognizable?", "Is removal of Ballot-papers from polling stations bailable?"],
+      "responses": ["Section 135 (1) RPA \n- Punishment: 1 year or Rs.500/- or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_135_A_RPA",
+      "patterns": ["booth captured publically", "booth captured by public","booth captured by govt servant", "booth captured", "booth capturing","Booth capturing by a) Govt Servant on duty b) Public", "What is provision for booth capturing by a) Govt Servant on duty b) Public?", "What is the punishment for booth capturing by a) Govt Servant on duty b) Public?", "Is booth capturing by a) Govt Servant on duty b) Public cognizable?", "Is booth capturing by a) Govt Servant on duty b) Public bailable?"],
+      "responses": ["Section 135 (A) RPA \n- Punishment: \n    (a) 3 year to 5 years with fine. \n    (b) 1 year to 3 year with fine for others \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_135_c_RPA",
+      "patterns": ["liquor sale polling date", "liquor sale on polling","liquor sold on poll","Liquor not to be sold, given or distributed on polling date", "What is provision for liquor not to be sold, given or distributed on polling date?", "What is the punishment for liquor not to be sold, given or distributed on polling date?", "Is liquor not to be sold, given or distributed on polling date cognizable?", "Is liquor not to be sold, given or distributed on polling date bailable?"],
+      "responses": ["Section 135 (c) RPA \n- Punishment: 6 months with fine of Rs.2000/- or both \n- Cognizable: No \n- Bailable: Yes"]
+    },
+    {
+      "tag": "section_136_2_RPA",
+      "patterns": ["invalid paper in ballot box","paper other than ballot paper in ballot box","fradulent act in document","fraudulent act in list notice","fraudulent act in respect paper","Fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public", "What is provision for fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public?", "What is the punishment for fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public?", "Is fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box cognizable?", "Is fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box bailable?"],
+      "responses": ["Section 136 (2) RPA \n- Punishment: \n    (a) 2 years or fine or both \n    (b) 6 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"]
+    },
+    {
+      "tag": "definition_Cognizable",
+      "patterns": ["define cognizable", "what is meant by cognizable", "what does cognizable mean?", "what does it mean to be cognizable?"],
+      "responses":["A Cognizable offence or case is defined as the one which an officer in-charge of a police station may investigate without the order of a magistrate and effect arrest without warrant"]
+    },
+    {
+      "tag": "definition_Bailable",
+      "patterns":["define bailable", "what is meant by bailable offences", "what does bailable mean", "what does it mean to be bailable?"],
+      "responses":["Bailable offences are those offences or crimes that are not very serious in nature. In such cases bail is a right and the arrested person must be released after depositing the bail with the police. The police have the power to grant bail in these types of cases."]
+    },
+    {
+      "tag": "election_offences",
+      "patterns": ["all legal provisions","list all of the legal provisions related to elections","What are the legal provisions relating to elections?","List of election offences","Election laws"],
+      "responses": [
+        "1. Giving and accepting bribe for election - Section 171-E of IPC - Punishment: 1 year or fine or both - Cognizable: Yes - Bailable: No \n2. Using undue influence or Personation at an election - Section 171-F of IPC - Punishment: 1 year or fine or both - Cognizable: Yes - Bailable: Yes \n3. False statement in connection with election - Section 171-G of IPC - Punishment: Fine - Cognizable: No - Bailable: Yes \n4. Illegal payment in connection with election - Section 171-HIPC of IPC - Punishment: Rs.500/- - Cognizable: No - Bailable: Yes \n5. Failure to keep election Accounts - Section 171-I of IPC - Punishment: -do- - Cognizable: No - Bailable: Yes \n6. Promoting enmity between different social groups leading to disharmony - Section 153-A(1) of IPC - Punishment: 3 Years or fine or both - Cognizable: Yes - Bailable: No\n 7. Promoting enmity between social group leading to disharmony in religious place or religious gathering - Section 153-A(2) of IPC - Punishment: 5 years and fine also - Cognizable: Yes - Bailable: No \n8. Imputation assertions prejudicial to national integration - Section 153-B(1) of IPC - Punishment: 3 years & fine or both - Cognizable: Yes - Bailable: No \n9. Imputations assertion prejudicial to national integration committed at a religious place or gathering - Section 153-B(2) of IPC - Punishment: 5 years & also fine - Cognizable: Yes - Bailable: No \n10. Making false declaration - Section 31 RPA - Punishment: One year or fine or both - Cognizable: No - Bailable: Yes \n11. Breach of official duty - Section 32-RPA - Punishment: 3 months to 2 years with fine - Cognizable: No - Bailable: Yes \n12. Promoting enmity between classes in c/w election - Section 125-RPA - Punishment: 3 years or fine or both - Cognizable: Yes - Bailable: No \n13. Holding of public meeting on the preceding day the polling day - Section 126-RPA - Punishment: Rs.250/- - Cognizable: No - Bailable: Yes \n14. Causing disturbance at election meeting - Section 127-RPA - Punishment: 6 months or Rs.2000/- or both - Cognizable: Yes - Bailable: Yes \n15. Failure to mention name and address of printer/publisher on pamphlets - Section 127-RPA (A) - Punishment: 6 months or Rs.2000/- or both - Cognizable: No - Bailable: Yes \n16. Violation of secrecy by staff in respect of voting and posters etc. - Section 128-RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n17. Use of influence by officer on duty at an election for voting - Section 129 (3) RPA - Punishment: 6 months or fine or both - Cognizable: Yes - Bailable: Yes \n18. Canvassing on polling day - Section 130(2) RPA - Punishment: Rs.250/- - Cognizable: Yes - Bailable: Yes \n19. Disorderly conduct in or near polling station - Section 131(2) RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n20. Misconduct at polling station - Section 132-RPA - Punishment: 3 months or fine or both - Cognizable: Yes - Bailable: Yes \n21. Illegal procuring/hiring of vehicles at an election for transportation of voters - Section 133-RPA - Punishment: 3 months with fine - Cognizable: No - Bailable: Yes \n22. Breach of official duty in connection with election - Section 134-RPA - Punishment: Rs.500/- - Cognizable: Yes - Bailable: Yes \n23. Acting as electing agent, polling agent or counting agent by Govt. Servant - Section 134(A) RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n24. Prohibition of going armed to or near a polling station - Section 134 (B) RPA - Punishment: 2 years or with fine or both - Cognizable: Yes - Bailable: Yes \n25. Removal of Ballot-papers from polling stations - Section 135 (1) RPA - Punishment: 1 year or Rs.500/- or both - Cognizable: Yes - Bailable: Yes \n26. Booth capturing by a) Govt Servant on duty b) Public - Section 135 (A) RPA - Punishment: (a) 3 year to 5 years with fine. (b) 1 year to 3 year with fine for others - Cognizable: Yes - Bailable: Yes \n27. Liquor not to be sold, given or distributed on polling date - Section 135 (c) RPA - Punishment: 6 months with fine of Rs.2000/- or both - Cognizable: No - Bailable: Yes \n28. Fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public. - Section 136 (2) RPA - Punishment: (a) 2 years or fine or both (b) 6 months or fine or both - Cognizable: Yes - Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "border_checkpoints",
+      "patterns": [
+        "Border checkpoints",
+        "Border crossings",
+        "Border locations"
+      ],
+      "responses": [
+        "1. Aya Nagar Picket, Aya Nagar Village, Delhi-Gurugram Road\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Inspr. Mukesh Kumar Baliyan, SHO/Fatehpur Beri, Contact: 8750870826\n\nOutgoing Border: P.S. DLF Phase-I, District - Gurugram, Inspr. Sunil Kumar, SHO, Contact: 9999981827\nIncoming Border: PS DLF Phase-III, Inspr. Dinkar Yadav, SHO, Contact: 9205892152 \n2. Jheel Khurd, Dera Goan, Delhi-Faridabad Border\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Police Post-Manger, PS Dhoj, Inspr. Satyawan, SHO, Contact: 9582200157, District - Faridabad\n- SI Pardeep Kumar, Contact: 9582200180 \n3. Gawal Pahari, Mandi Village, Delhi-Gurugram Border\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Police Post- Gawal Phari, PS DLF Phase-I, Gurugram, SI Pardeep Singh, Contact: 99205892151, District - Gurugram"
+      ]
+    },
+    {
+      "tag": "election_commission_do_1",
+      "patterns": ["On-going programmes", "Continuation of ongoing programmes", "Can ongoing programmes continue during elections?"],
+      "responses": ["On-going programmes, which actually started in the field before the announcement of elections may continue."]
+    },
+    {
+      "tag": "election_commission_do_2",
+      "patterns": ["Relief and rehabilitation measures", "Commencing relief measures during elections", "Can relief measures be started during elections?"],
+      "responses": ["Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue."]
+    },
+    {
+      "tag": "election_commission_do_3",
+      "patterns": ["Grant of cash or medical facilities to terminally or critically ill persons", "Providing assistance to terminally ill during elections", "Can cash or medical assistance be provided during elections?"],
+      "responses": ["Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals."]
+    },
+    {
+      "tag": "election_commission_do_4",
+      "patterns": ["Availability of public places for election meetings", "Equal access to maidans for election meetings", "Can all parties use public places for meetings?"],
+      "responses": ["Public places like maidans must be available impartially to all parties/contesting candidates for holding election meetings."]
+    },
+    {
+      "tag": "election_commission_do_5",
+      "patterns": ["Criticism of other political parties and candidates", "Rules for criticism during elections", "Are there guidelines for criticizing other parties?"],
+      "responses": ["Criticism of other political parties and candidates should relate to their policies, programme, past record and work."]
+    },
+    {
+      "tag": "election_commission_do_6",
+      "patterns": ["Safeguarding the right to peaceful home life", "Ensuring peaceful home life during elections", "Can individuals have peaceful home life during elections?"],
+      "responses": ["The right of every individual for peaceful and undisturbed home life should be fully safeguarded."]
+    },
+    {
+      "tag": "election_commission_do_7",
+      "patterns": ["Informing police about proposed meetings", "Notifying police about election meetings", "Should police be informed about election meetings?"],
+      "responses": ["The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken."]
+    },
+    {
+      "tag": "election_commission_do_8",
+      "patterns": ["Respecting restrictive or prohibitory orders", "Adhering to orders during elections", "Should orders be respected during elections?"],
+      "responses": ["If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time."]
+    },
+    {
+      "tag": "election_commission_do_9",
+      "patterns": ["Obtaining permission for loudspeakers", "Using loudspeakers during elections", "Is permission required for loudspeakers during elections?"],
+      "responses": ["Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings."]
+    },
+    {
+      "tag": "election_commission_do_10",
+      "patterns": ["Seeking assistance of police in maintaining order", "Seeking police help during elections", "Can police assistance be sought during elections?"],
+      "responses": ["The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder."]
+    },
+    {
+      "tag": "election_commission_do_11",
+      "patterns": ["Planning procession routes in advance", "Deciding procession routes beforehand", "Should procession routes be planned before?"],
+      "responses": ["The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities."]
+    },
+    {
+      "tag": "election_commission_do_12",
+      "patterns": ["Ensuring smooth traffic during processions", "Maintaining traffic flow during processions", "Should traffic flow be ensured during processions?"],
+      "responses": ["The passage of the procession must be without hindrance to traffic."]
+    },
+    {
+      "tag": "election_commission_do_13",
+      "patterns": ["Extending cooperation to election officials", "Cooperating with election officials", "Is cooperation required with election officials?"],
+      "responses": ["Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll."]
+    },
+    {
+      "tag": "election_commission_do_14",
+      "patterns": ["Displaying badges or identity cards by workers", "Wearing badges during elections", "Should workers wear badges during elections?"],
+      "responses": ["All Workers must display badges or identity cards."]
+    },
+    {
+      "tag": "election_commission_do_15",
+      "patterns": ["Issuing unofficial identity slips to voters", "Providing identity slips during elections", "Can unofficial identity slips be issued to voters?"],
+      "responses": ["Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party."]
+    },
+    {
+      "tag": "election_commission_do_16",
+      "patterns": ["Obeying restrictions on vehicle plying", "Following vehicle restrictions during elections", "Are there restrictions on vehicles during elections?"],
+      "responses": ["Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed."]
+    },
+    {
+      "tag": "election_commission_do_17",
+      "patterns": ["Restricting entry to polling booths", "Controlled entry to polling booths", "Who can enter polling booths during elections?"],
+      "responses": ["(Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition."]
+    },
+    {
+      "tag": "election_commission_do_18",
+      "patterns": ["Reporting complaints to election observers", "Informing election observers about complaints", "How to report election-related complaints?"],
+      "responses": ["Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India."]
+    },
+    {
+      "tag": "election_commission_do_19",
+      "patterns": ["Obeying directions from Election Commission", "Following instructions from Election Commission", "Should Election Commission instructions be followed?"],
+      "responses": ["Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election."]
+    },
+    {
+      "tag": "election_commission_do_20",
+      "patterns": ["Leaving constituency after campaign period", "Exiting constituency after elections", "Should non-voters leave the constituency after elections?"],
+      "responses": ["Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency."]
+    },
+    {
+      "tag": "election commision dos",
+      "patterns": [
+        "Do's",
+        "Dos",
+        "Election guidelines - Do's",
+        "Code of conduct - Do's"
+      ],
+      "responses": [
+        "DOS: \n- On-going programmes, which actually started in the field before the announcement of elections may continue.\n- Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue.\n- Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals.\n- Public places like maidans must be available impartially to all parties/contesting candidates for holding election meetings. So also use of helipads must be available impartially to all parties/contesting candidates, to ensure a level playing field.\n- Criticism of other political parties and candidates should relate to their policies, programme, past record and work.\n- The right of every individual for peaceful and undisturbed home life should be fully safeguarded.\n- The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken.\n- If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time.\n- Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings.\n- The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder.\n- The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities.\n- The existence of any restrictive orders in force in the localities through which the procession has to pass should be ascertained and fully complied with. So also all traffic regulations and other restrictions.\n- The passage of the procession must be without hindrance to traffic.\n- Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll.\n- All Workers must display badges or identity cards.\n- Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party.\n- Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed.\n- (Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition.\n- Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India.\n- Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election.\n- Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency."
+      ]
+    },
+    {
+      "tag": "dont_advertisements",
+      "patterns": ["Advertisements regarding achievements of the party/Government", "Are government advertisements allowed for party achievements?", "Are advertisements about government achievements permitted?", "Government achievements advertisement"],
+      "responses": ["No advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is permitted."]
+    },
+    {
+      "tag": "dont_ministers_polling_station",
+      "patterns": ["Ministers entering polling stations or places of counting", "Can ministers enter polling stations?", "Are ministers allowed inside polling stations?","minister entering polling station"],
+      "responses": ["No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting."]
+    },
+    {
+      "tag": "dont_mix_official_campaigning",
+      "patterns": ["Mixing official work with campaigning/electioneering", "Can official work be mixed with campaigning?", "Is campaigning allowed during official work hours?", "official work with campaign", "camaign during official work"],
+      "responses": ["Official work should not at all be mixed with campaigning/electioneering."]
+    },
+    {
+      "tag": "dont_offer_inducements",
+      "patterns": ["Offering inducements to voters", "Can inducements be offered to voters?", "Are financial inducements to voters allowed?", "inducements given to voters", "inducements to voters"],
+      "responses": ["No inducement, financial or otherwise, shall be offered to the voter."]
+    },
+    {
+      "tag": "dont_appeal_caste_communal",
+      "patterns": ["Appealing to caste/communal feelings of electors", "Is appealing to caste/communal feelings allowed?", "Can candidates appeal to caste/communal feelings?", "appeal to caste feeling", "appeal to cast", "appeal to communal feeling", "appeal to caste sentiment", "appeal to communal sentiment"],
+      "responses": ["Caste/communal feelings of the electors shall not be appealed to."]
+    },
+    {
+      "tag": "dont_aggravate_differences",
+      "patterns": ["Aggravating existing differences between groups", "Can activities aggravate differences between groups?", "Is it allowed to cause tension between different groups?"],
+      "responses": ["No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted."]
+    },
+    {
+      "tag": "election commision donts",
+      "patterns": [
+        "Don'ts",
+        "Donts",
+        "Election guidelines - Don'ts",
+        "Code of conduct - Don'ts"
+      ],
+      "responses": [
+        "DONTs: \n(1) Any and all advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is prohibited.\n(2) No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting.\n(3) Official work should not at all be mixed with campaigning/electioneering.\n(4) No inducement, financial or otherwise, shall be offered to the voter.\n(5) Caste/communal feelings of the electors shall not be appealed to.\n(6) No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted.\n(7) No aspect of the private life, not connected with the public activities, of the leaders or workers of other parties shall be permitted to be criticized.\n(8) Other parties or their workers shall not be criticized based on unverified allegations or on distortions.\n(9) Temples, Mosques, Churches, Gurudwaras or any place of worship shall not be used as places for election propaganda, including speeches, posters, music etc., on electioneering.\n(10) Activities which are corrupt practices or electoral offences such as bribery, undue influence, intimidation of voters, personation, canvassing within 100 meters of a polling station, holding of public meetings during the period of 48 hours ending with the hour fixed for the close of the poll and conveyance of voters to and from polling stations are prohibited.\n(11) Demonstrations or picketing before the houses of individuals by way of protesting against their opinion or activities shall not be resorted to.\n(12) Subject to the local laws, no one can make use of any individual's land, building, compound wall, vehicles etc. for erecting flag staffs, putting up banners, pasting notices or writing slogans etc. without specific permission of the owner (to be shown to and deposited with the District Election Officer).\n(13) No disturbances shall be created in public meetings or processions organized by other political parties or candidates.\n(14) Processions along places at which another party is holding meetings shall not be undertaken.\n(15) Processionists shall not carry any articles, which are capable of being misused as missiles or weapons.\n(16) Posters issued by other parties and candidates shall not be removed or defaced.\n(17) Posters, flags, symbols or any other propaganda material shall not be displayed in the place being used on the day of poll for distribution of identity slips or near polling booths.\n(18) Loudspeakers whether static or mounted on moving vehicles shall not be used either before 6 a.m. or after 10a.m. and without the prior written permission of the authorities concerned.\n(19) Loudspeakers shall also not be used at public meetings and processions without the prior written permission of the authorities concerned. Normally, such meetings/processions will not be allowed to continue beyond 10.00 p.m. in the night and will be further subject to the local laws, local perceptions of the security arrangements of the area and other relevant considerations like weather conditions, festival season, examination period, etc.\n(20) No liquor should be distributed during elections.\n(21) On the day of the poll, no person who has been assessed to be having a security threat and therefore given official security shall enter the vicinity of a polling station premise (within 100 meters) with his security personnel. Further, on the day of the poll no such person shall move around in a constituency with his security personnel. If the person provided with official security happens to be a voter also, then he or she shall restrict his / her movement - accompanied by security personnel, to voting only.\n(22) No person who has been assessed to be having a security threat and therefore provided official security or who has private security guards for himself, shall be appointed as an election agent or polling agent or counting agent."
+      ]
+    },
+    {
+      "tag": "election commision dos and donts",
+      "patterns": [
+        "Do's and Don'ts of election commision",
+        "do's and don'ts",
+        "dos and donts",
+        "code of conduct - Do's and Don'ts",
+        "Election Guidelines - Do's and Don'ts"
+      ],
+      "responses":[
+        "DOS: \n- On-going programmes, which actually started in the field before the announcement of elections may continue. \n- Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue.\n- Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals.\n- Public places like maidans must be available impartially to all parties/contesting candidates for holding election meetings. So also use of helipads must be available impartially to all parties/contesting candidates, to ensure a level playing field.\n- Criticism of other political parties and candidates should relate to their policies, programme, past record and work.\n- The right of every individual for peaceful and undisturbed home life should be fully safeguarded.\n- The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken.\n- If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time.\n- Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings.\n- The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder.\n- The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities.\n- The existence of any restrictive orders in force in the localities through which the procession has to pass should be ascertained and fully complied with. So also all traffic regulations and other restrictions.\n- The passage of the procession must be without hindrance to traffic.\n- Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll.\n- All Workers must display badges or identity cards.\n- Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party.\n- Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed.\n- (Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition.\n- Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India.\n- Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election.\n- Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency.\n \nDONTs: \n(1) Any and all advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is prohibited.\n(2) No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting.\n(3) Official work should not at all be mixed with campaigning/electioneering.\n(4) No inducement, financial or otherwise, shall be offered to the voter.\n(5) Caste/communal feelings of the electors shall not be appealed to.\n(6) No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted.\n(7) No aspect of the private life, not connected with the public activities, of the leaders or workers of other parties shall be permitted to be criticized.\n(8) Other parties or their workers shall not be criticized based on unverified allegations or on distortions.\n(9) Temples, Mosques, Churches, Gurudwaras or any place of worship shall not be used as places for election propaganda, including speeches, posters, music etc., on electioneering.\n(10) Activities which are corrupt practices or electoral offences such as bribery, undue influence, intimidation of voters, personation, canvassing within 100 meters of a polling station, holding of public meetings during the period of 48 hours ending with the hour fixed for the close of the poll and conveyance of voters to and from polling stations are prohibited.\n(11) Demonstrations or picketing before the houses of individuals by way of protesting against their opinion or activities shall not be resorted to.\n(12) Subject to the local laws, no one can make use of any individual's land, building, compound wall, vehicles etc. for erecting flag staffs, putting up banners, pasting notices or writing slogans etc. without specific permission of the owner (to be shown to and deposited with the District Election Officer).\n(13) No disturbances shall be created in public meetings or processions organized by other political parties or candidates.\n(14) Processions along places at which another party is holding meetings shall not be undertaken.\n(15) Processionists shall not carry any articles, which are capable of being misused as missiles or weapons.\n(16) Posters issued by other parties and candidates shall not be removed or defaced.\n(17) Posters, flags, symbols or any other propaganda material shall not be displayed in the place being used on the day of poll for distribution of identity slips or near polling booths.\n(18) Loudspeakers whether static or mounted on moving vehicles shall not be used either before 6 a.m. or after 10a.m. and without the prior written permission of the authorities concerned.\n(19) Loudspeakers shall also not be used at public meetings and processions without the prior written permission of the authorities concerned. Normally, such meetings/processions will not be allowed to continue beyond 10.00 p.m. in the night and will be further subject to the local laws, local perceptions of the security arrangements of the area and other relevant considerations like weather conditions, festival season, examination period, etc.\n(20) No liquor should be distributed during elections.\n(21) On the day of the poll, no person who has been assessed to be having a security threat and therefore given official security shall enter the vicinity of a polling station premise (within 100 meters) with his security personnel. Further, on the day of the poll no such person shall move around in a constituency with his security personnel. If the person provided with official security happens to be a voter also, then he or she shall restrict his / her movement - accompanied by security personnel, to voting only.\n(22) No person who has been assessed to be having a security threat and therefore provided official security or who has private security guards for himself, shall be appointed as an election agent or polling agent or counting agent."
+      ]
+    },
+    {
+      "tag": "The police station wise detail of Parliamentary Constituencies, Assembly Constituencies falling within the jurisdiction of South District Police ",
+      "patterns": [
+        "What are the Assembly Constituencies falling within the jurisdiction of South District Police?",
+        "Assembly Constituencies falling within the jurisdiction of South District Police",
+        "What are the police station wise detail parliamentary constituencies?",
+        "the police station wise detail of parliamentary constituencies"
+      ],
+      "responses":[
+        "New Delhi n Parliamentary Constituency-04n -Ac No.-40 \nAc Name- New Delhi n Police Station Area- Hauz Khas Lodhi Colonyn -Ac No.-42\n AC name KASTURBA NAGAR Police Station Area HAUZ KHAS DEFENCE COLONY LODHI COLONY K.M.PUR \n -AC No.- 43 \n AC Name- MALVIYA NAGAR \n Police Station Area - HAUZ KHAS MALVIYA NAGAR \n -AC No.- 50 \n AC NAme - GREATER KAILASH \n Police Station Area- HAUZ KHAS MALVIYA NAGAR C.R. PARK GREATER KAILASH"
+
+      ]
+    
+    },
+    {
+      "tag": "south_district_police_assembly_constituencies",
+      "patterns": ["assembly constituencies","assembly constituencies south district","Assembly Constituencies within South District Police jurisdiction", "Which Assembly Constituencies fall under South District Police?", "What are the Assembly Constituencies in South District Police jurisdiction?", "South District Police Assembly Constituencies"],
+      "responses": ["New Delhi n Parliamentary Constituency-04n -Ac No.-40\nAc Name- New Delhi\nPolice Station Area- Hauz Khas, Lodhi Colony\n-Ac No.-42\nAC Name KASTURBA NAGAR\nPolice Station Area HAUZ KHAS, DEFENCE COLONY, LODHI COLONY, K.M.PUR\n-AC No.- 43\nAC Name- MALVIYA NAGAR\nPolice Station Area- HAUZ KHAS, MALVIYA NAGAR\n-AC No.- 50\nAC Name- GREATER KAILASH\nPolice Station Area- HAUZ KHAS, MALVIYA NAGAR, C.R. PARK, GREATER KAILASH"]
+    },
+    {
+      "tag": "south_district_police_parliamentary_constituencies",
+      "patterns": ["Parliamentary Constituencies within South District Police jurisdiction", "Which Parliamentary Constituencies fall under South District Police?", "What are the Parliamentary Constituencies in South District Police jurisdiction?", "South District Police Parliamentary Constituencies"],
+      "responses": ["New Delhi n Parliamentary Constituency-04n -Ac No.-40\nAc Name- New Delhi"]
+    }
+  ]
+}
