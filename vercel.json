@@ -1,6 +1,5 @@
 {
     "build": {
-      "functions": "api/",
       "src": "app.py"
     }
   }
