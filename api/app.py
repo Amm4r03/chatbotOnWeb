@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from chat import get_response, bot_name
 
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__, static_folder='../static', template_folder='../templates')
 
 # Set configuration options
 app.config['DEBUG'] = True
