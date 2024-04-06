@@ -65,8 +65,8 @@
             })
             .then(response => response.json())
             .then(data => {
-                document.getElementById('chat-container').innerHTML += `<p id="userMessage">User: ${message}</p>`;
-                document.getElementById('chat-container').innerHTML += `<p id="botMessage">Delhi Police Chatbot: ${data.response}</p>`;
+                document.getElementById('chat-container').innerHTML += `<p id="userMessage">You: <br>${message}</p>`;
+                document.getElementById('chat-container').innerHTML += `<p id="botMessage">Delhi Police Chatbot: <br>${data.response}</p>`;
             })
             .catch(error => console.error('Error:', error));
         }
