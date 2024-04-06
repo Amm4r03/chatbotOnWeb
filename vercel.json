@@ -1,4 +1,9 @@
 {
+    "functions": {
+      "api/app.py": {
+        "runtime": "python"
+      }
+    },
     "rewrites": [
       { "source": "/(.*)", "destination": "/api/app" }
     ]
