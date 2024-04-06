@@ -28,6 +28,3 @@ def send_message():
         return jsonify({'response': bot_message})
     except UnicodeDecodeError:
         return jsonify({'response': 'An error occurred while decoding the request data.'}), 500
-
-if __name__ == '__main__':
-    app.run(debug=True)
