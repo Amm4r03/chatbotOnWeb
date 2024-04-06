@@ -1,5 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/api/app" }
-    ]
-  }
+  "framework": "flask",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/app" }
+  ]
+}
